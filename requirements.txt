@@ -1,0 +1,8 @@
+Guarda las dependencias del proyecto para futuras instalaciones:
+
+flask
+flask-swagger-ui
+
+Instálalas ejecutando:
+
+pip install -r requirements.txt

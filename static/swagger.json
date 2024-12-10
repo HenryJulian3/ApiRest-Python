@@ -1,0 +1,33 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "version": "1.0.0",
+      "title": "Hola Mundo API",
+      "description": "API REST simple que retorna un mensaje de Hola Mundo"
+    },
+    "host": "localhost:5000",
+    "basePath": "/",
+    "schemes": ["http"],
+    "paths": {
+      "/api/hello": {
+        "get": {
+          "summary": "Retorna un mensaje de Hola Mundo",
+          "responses": {
+            "200": {
+              "description": "Respuesta exitosa",
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "message": {
+                    "type": "string",
+                    "example": "Hola Mundo API REST"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
